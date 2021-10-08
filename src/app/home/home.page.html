@@ -10,11 +10,11 @@
   <ion-list  *ngFor="let user of users">
     <ion-card (click)="navigatePage(user)">
       
-      <ion-card-header>
+      <ion-card-header class="usuario">
             <ion-avatar>
           <img src={{user.image}}>
         </ion-avatar>
-        <p>{{user.first_name}}</p>
+        <p id="name">{{user.first_name}}</p>
       </ion-card-header>
      </ion-card>    
   

@@ -1,3 +1,18 @@
 ion-card{
   background-color: var(--color-card-users);
 }
+.usuario{
+  display: flex;
+  align-items: center;
+
+}
+ion-label{
+  color: aquamarine;
+}
+#prueba{
+  color: aquamarine;
+}
+#name{
+  margin-left: 5%;
+  color: black;
+}

@@ -13,8 +13,13 @@
 <ion-item>
   <ion-input  formControlName="password" placeholder="Contraseña" type="password"></ion-input>
 </ion-item>
+<div class="container-remember">
+  <p>Recordar</p>
+  <ion-checkbox mode="ios"></ion-checkbox>
+</div>
   </form>
-  <ion-button (click)="login()">Acceder</ion-button>
+  <ion-button mode="ios" expand="full" shape="round" color="warning" (click)="login()">Acceder</ion-button>
    
 </ion-card>
+
 </ion-content>
