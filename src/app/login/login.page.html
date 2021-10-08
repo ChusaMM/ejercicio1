@@ -1,0 +1,20 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>login</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-card >
+  <form [formGroup]="formLogin">
+  <ion-item>
+  <ion-input formControlName="email" placeholder="mail" type="email"></ion-input>
+</ion-item>
+<ion-item>
+  <ion-input  formControlName="password" placeholder="Contraseña" type="password"></ion-input>
+</ion-item>
+  </form>
+  <ion-button (click)="login()">Acceder</ion-button>
+   
+</ion-card>
+</ion-content>
